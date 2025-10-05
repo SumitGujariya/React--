@@ -1,1 +1,1 @@
-Complete the journey to learn the react language with me.👍👍
+Complete the journey to learn the react with me.👍👍
