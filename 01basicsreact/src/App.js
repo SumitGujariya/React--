@@ -1,7 +1,11 @@
+import Code from "./Code";
 
 function App() {
   return (
-    <h1>React On Youtube</h1>
+    <>
+      <Code />
+      <h1>React On Youtube</h1>
+    </>
   );
 }
 
