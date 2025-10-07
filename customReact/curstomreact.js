@@ -1,3 +1,5 @@
+// Create a dom for the inject the code 
+
 function customRender(reactElement, container) {
   const domElement = document.createElement(reactElement.type)
   domElement.innerHTML = reactElement.children
