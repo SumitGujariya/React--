@@ -7,7 +7,7 @@ function customRender(reactElement, container) {
   container.appendChild(domElement)
 }
 
-
+// This is the tree structure 
 const reactElement = {
   type: "a",
   props: {
@@ -19,4 +19,7 @@ const reactElement = {
 
 const mainContainer = document.querySelector("#root");
 
+
+// This CR is help you enject the element. for enject the element you need to write what you want to inject and where?
+// Example is you inject in reactElement and in mainContainer. 
 customRender(reactElement, mainContainer);
