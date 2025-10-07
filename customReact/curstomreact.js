@@ -1,12 +1,15 @@
 // Create a dom for the inject the code 
 
 function customRender(reactElement, container) {
-  const domElement = document.createElement(reactElement.type)
+
+  // This will first method 
+ /* const domElement = document.createElement(reactElement.type)
   domElement.innerHTML = reactElement.children
   domElement.setAttribute("href", reactElement.props.href)
   domElement.setAttribute("target", reactElement.props.target)
 
   container.appendChild(domElement)
+  */
 }
 
 // This is the tree structure 
