@@ -29,7 +29,7 @@ const reactElement = {
     target: "_blank",
   },
   children: "Click me to visiti google",
-};
+}; 
 
 const mainContainer = document.querySelector("#root");
 
