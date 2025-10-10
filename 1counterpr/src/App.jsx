@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
+  //Keeps track of counter value
+  //Updates counter and re-renders the UI
   let [counter, setCounter] = useState(15);
 
   // let counter = 15
